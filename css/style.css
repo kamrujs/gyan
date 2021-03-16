@@ -1,0 +1,1762 @@
+/* =============================== Common CSS =============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.tittle h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #2d3e50;
+    text-align: center;
+    font-family: 'Arimo';
+    margin-bottom: 22px;
+}
+
+.tittle p {
+    width: 570px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Arimo';
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+/* =============================== Common CSS =============================== */
+
+
+/* =============================== header CSS Start =============================== */
+
+header {
+    color: #fff;
+    background: #2d3e50;
+    padding: 12px 0;
+}
+
+header .header-contact span {
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+}
+
+header .header-contact a {
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header .header-reg {
+    text-align: right;
+}
+
+
+header .header-reg a {
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    transition: .4s;
+}
+
+header .header-reg a:hover {
+    color: #efa435;
+}
+
+
+/* =============================== header CSS END =============================== */
+
+
+/* =============================== Nav CSS Start =============================== */
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+nav button span i {
+    font-size: 25px;
+    margin-top: 4px;
+}
+
+nav ul li {
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+nav ul li a {
+    color: #2d3e50;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Arimo';
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    color: #fbaa33;
+}
+
+nav .nav-button {
+    margin-top: 25px;
+}
+
+nav .button a {
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    padding: 15px 20px;
+    background: #fbaa33;
+    color: white;
+    border-radius: 6px;
+    transition: .5s;
+    display: inline-block;
+}
+
+nav .button a:hover {
+    background: #2d3e50;
+    color: #FFF;
+}
+
+/* =============================== Nav CSS END =============================== */
+
+
+/* =============================== banner CSS END =============================== */
+
+
+#banner-section .slider {
+    background: url(../image/banner1.png) no-repeat center;
+    background-size: cover;
+}
+
+
+#banner-section .slider2 {
+    background: url(../image/Banner-02.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+#banner-section .slider2 p {
+    margin: 0 auto;
+}
+
+
+#banner-section .slider3 {
+    background: url(../image/banner_03.jpg) no-repeat center;
+    background-size: cover;
+    text-align: right;
+}
+
+#banner-section .slider3 p {
+    margin-left: auto;
+}
+
+#banner-section .slider .overlay {
+    background: rgba(45, 62, 80, 0.4);
+    padding-top: 130px;
+    padding-bottom: 220px;
+}
+
+
+#banner-section .slider .overlay h4 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+#banner-section .slider .overlay h2 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-family: 'Arimo', sans-serif;
+}
+
+#banner-section .slider .overlay p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 60px;
+    width: 570px;
+}
+
+#banner-section .slider .overlay a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 6px;
+    margin-right: 20px;
+    transition: .5s;
+    font-family: 'Arimo', sans-serif;
+}
+
+#banner-section .slider .overlay .yol {
+    background: #fbaa33;
+}
+
+#banner-section .slider .overlay .dark {
+    background: #2d3e50;
+}
+
+#banner-section .slider .overlay .yol:hover {
+    background: #2d3e50;
+}
+
+#banner-section .slider .overlay .dark:hover {
+    background: #fbaa33;
+}
+
+#banner-section .banner-slider .left-arrow {
+    color: #f1f1f1;
+    position: absolute;
+    font-size: 28px;
+    top: 50%;
+    left: 22px;
+    z-index: 99;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+#banner-section .banner-slider .right-arrow {
+    color: #f1f1f1;
+    position: absolute;
+    font-size: 28px;
+    top: 50%;
+    right: 22px;
+    z-index: 99;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+#banner-section .banner-slider .left-arrow:hover {
+    background: #fbaa33;
+    color: white;
+    border-color: #fbaa33;
+}
+
+#banner-section .banner-slider .right-arrow:hover {
+    background: #fbaa33;
+    color: white;
+    border-color: #fbaa33;
+}
+
+#banner-Facilities .Facilities-item {
+    background: #f5f5f5;
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 30px 0;
+    transform: translateY(-50%);
+    transition: .2s;
+}
+
+#banner-Facilities .Facilities-item h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #444444;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Arimo', sans-serif;
+}
+
+#banner-Facilities .Facilities-item a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Arimo', sans-serif;
+    transition: .5s;
+}
+
+#banner-Facilities .Facilities-item a:hover {
+    color: #fbaa33;
+}
+
+#banner-Facilities .Facilities-item:hover {
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =============================== banner CSS END =============================== */
+
+
+/* =============================== banner CSS END =============================== */
+
+#abour-section {
+    padding-bottom: 50px;
+}
+
+#abour-section .top-bottom-shape {
+    position: relative;
+}
+
+#abour-section .top-bottom-shape::before {
+    width: 360px;
+    height: 3px;
+    background: #fbaa33;
+    position: absolute;
+    top: -10px;
+    left: -12px;
+    content: "";
+    border-radius: 5px;
+}
+
+#abour-section .top-bottom-shape::after {
+    width: 10px;
+    height: 3px;
+    background: #fbaa33;
+    position: absolute;
+    top: -10px;
+    left: 360px;
+    content: "";
+    border-radius: 5px;
+}
+
+#abour-section .top-bottom-shape2 {
+    position: relative;
+}
+
+#abour-section .top-bottom-shape2::before {
+    width: 360px;
+    height: 3px;
+    background: #2d3e50;
+    position: absolute;
+    bottom: -10px;
+    right: -20px;
+    content: "";
+    border-radius: 5px;
+}
+
+#abour-section .top-bottom-shape2::after {
+    width: 10px;
+    height: 3px;
+    background: #2d3e50;
+    position: absolute;
+    bottom: -10px;
+    right: 350px;
+    content: "";
+    border-radius: 5px;
+}
+
+
+/* about 3D slider */
+
+#abour-section .rev_slider .rev_slider-item img {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%) !important;
+}
+
+
+#abour-section .slick-slider {
+    margin-left: -12%;
+    margin-right: -12%;
+}
+
+#abour-section .slick-list {
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+
+
+#abour-section .rev_slider ul {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 5px;
+}
+
+#abour-section .slick-dots li {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+    transition: .4s;
+}
+
+#abour-section .slick-dots .slick-active {
+    width: 12px;
+    height: 12px;
+    background: #fbaa33;
+    border-color: #fbaa33;
+    border-radius: 50%;
+}
+
+
+#abour-section .slick-track {
+    max-width: 100% !important;
+    transform: translate3d(0, 0, 0) !important;
+    perspective: 100px;
+}
+
+#abour-section .slick-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    width: 100% !important;
+    transform: translate3d(0, 0, 0);
+    transition: transform 1s, opacity 1s;
+}
+
+#abour-section .slick-snext,
+#abour-section .slick-sprev,
+#abour-section .slick-snext2,
+#abour-section .slick-sprev2 {
+    display: block;
+}
+
+#abour-section .slick-current {
+    opacity: 1;
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+#abour-section .slick-snext {
+    opacity: 1;
+    transform: translate3d(10%, 0, -10px);
+    z-index: 1;
+    perspective: 1000px;
+}
+
+#abour-section .slick-snext2 {
+    opacity: 1;
+    transform: translate3d(20%, 0, -20px);
+    z-index: 0;
+    perspective: 1000px;
+}
+
+#abour-section .slick-sprev {
+    opacity: 1;
+    transform: translate3d(-10%, 0, -10px);
+}
+
+#abour-section .slick-sprev2 {
+    opacity: 1;
+    transform: translate3d(-20%, 0, -20px);
+}
+
+/* about 3D slider */
+
+
+
+#abour-section .rev_slider .rev_slide-item {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+#abour-section .text {
+    padding-top: 50px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+#abour-section .text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    font-family: 'Arimo';
+    line-height: 25px;
+}
+
+#abour-section .text p span {
+    margin-top: 20px;
+    display: block;
+}
+
+#abour-section .text .button a {
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 20px;
+    padding: 12px 18px;
+    border: 1px solid;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 40px;
+    display: inline-block;
+    transition: .5s;
+}
+
+#abour-section .text .button .more {
+    background: #fbaa33;
+}
+
+
+#abour-section .text .button .now {
+    background: #2d3e50;
+}
+
+
+
+#abour-section .text .button .more:hover {
+    background: #2d3e50;
+}
+
+
+#abour-section .text .button .now:hover {
+    background: #fbaa33;
+}
+
+
+/* =============================== banner CSS END =============================== */
+
+
+/* =============================== Counter-up CSS END =============================== */
+
+#counter-up {
+    background: url(../image/blogsection-title2\ .png) no-repeat center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#counter-up .item h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    padding-bottom: 8px;
+}
+
+#counter-up .item h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    position: relative;
+    /* display: inline-block; */
+}
+
+#counter-up .item h4::before {
+    width: 50px;
+    height: 3px;
+    background: #fbaa33;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -18px;
+    left: 47%;
+    content: "";
+    transform: translateX(-50%);
+}
+
+#counter-up .item h4::after {
+    width: 10px;
+    height: 3px;
+    background: #fbaa33;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -18px;
+    left: 59%;
+    content: "";
+    transform: translateX(-50%);
+}
+
+/* =============================== Counter-up CSS END =============================== */
+
+
+/* =============================== Courses CSS Start =============================== */
+
+#courses {
+    padding: 100px 0;
+    position: relative;
+}
+
+
+#courses .course-slider .course {
+    padding: 20px;
+    background: #f5f5f5;
+    box-sizing: border-box;
+    margin: 15px 15px 30px;
+    transition: .4s;
+}
+
+#courses .course-slider .course .img {
+    position: relative;
+}
+
+#courses .course-slider .course .img img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#courses .course-slider .course .img .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: .4s;
+}
+
+#courses .course-slider .course .img .overlay .round {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fbaa33;
+    text-align: center;
+    line-height: 50px;
+}
+
+#courses .course-slider .course .img .overlay .round a i {
+    color: #fff;
+}
+
+#courses .course .heading {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#courses .course .heading .name img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#courses .course .heading .name {
+    width: 60%;
+    padding-left: 80px;
+}
+
+#courses .course .heading .name p {
+    color: #444444;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Arimo';
+}
+
+#courses .course .heading .name .couduct {
+    margin-top: 10px;
+}
+
+#courses .course .heading .name .nam {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#courses .course .heading .reating {
+    width: 40%;
+    text-align: right;
+}
+
+#courses .course .heading .reating i {
+    font-size: 12px;
+    color: #fbaa33;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-right: -5px;
+    padding-left: 5px;
+}
+
+#courses .course .heading .reating p {
+    color: #999999;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Arimo';
+}
+
+#courses .course h4 {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Arimo';
+    margin-top: 20px;
+    margin-bottom: 16px;
+    transition: .4s;
+}
+
+#courses .course .course-details p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Arimo';
+    padding-bottom: 35px;
+    border-bottom: 1px solid #dddddd;
+    line-height: 26px;
+}
+
+#courses .course .course-price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#courses .course .course-price .item {
+    width: 33%;
+}
+
+#courses .course .course-price .head {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Arimo';
+    margin-left: 18px;
+    color: #999999;
+}
+
+#courses .course .course-price .tit {
+    color: #444444;
+    font-weight: 700;
+    font-family: 'Arimo';
+    font-size: 13px;
+    margin-left: 18px;
+    padding-top: 10px;
+}
+
+#courses .course .button {
+    transform: translateY(100%);
+    text-align: center;
+}
+
+#courses .course .button a {
+    padding: 16px 18px;
+    background: #2d3e50;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-family: 'Arimo';
+    font-size: 16px;
+    transition: .4s;
+}
+
+#courses .course-slider .course:hover {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+#courses .course-slider .course:hover .overlay {
+    opacity: 1;
+}
+
+#courses .course-slider .course:hover h4 {
+    color: #fbaa33;
+}
+
+#courses .course-slider .course:hover .button a {
+    background: #fbaa33;
+}
+
+
+
+
+
+
+
+#courses .course-slider .left-arrows {
+    color: #2d3e50;
+    position: absolute;
+    font-size: 28px;
+    top: 50%;
+    left: -6%;
+    z-index: 99;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #2d3e50;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+#courses .course-slider .right-arrows {
+    color: #2d3e50;
+    position: absolute;
+    font-size: 28px;
+    top: 50%;
+    right: -6%;
+    z-index: 99;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #2d3e50;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+#courses .course-slider .left-arrows:hover {
+    background: #fbaa33;
+    color: white;
+    border-color: #fbaa33;
+}
+
+#courses .course-slider .right-arrows:hover {
+    background: #fbaa33;
+    color: white;
+    border-color: #fbaa33;
+}
+
+/* =============================== Courses CSS END =============================== */
+
+
+/* =============================== Events CSS END =============================== */
+#events {
+    padding-bottom: 100px;
+}
+
+#events .blog-item {
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    transition: .4s;
+    display: flex;
+}
+
+#events .m-blog {
+    margin-top: 30px;
+}
+
+#events .blog-item .image p {
+    width: 50px;
+    height: 50px;
+    background: #ff3232;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Arimo';
+    text-align: center;
+    line-height: 20px;
+    align-items: center;
+    display: flex;
+}
+
+#events .blog-item .image .green {
+    background: #3d7e34;
+}
+
+#events .blog-item .blog h4 {
+    font-family: 'Arimo';
+    font-weight: 700;
+    font-size: 22px;
+    color: #2d3e50;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    transition: .4s;
+    width: 300px;
+}
+
+#events .blog-item .blog {
+    padding-left: 20px;
+}
+
+#events .blog-item .blog p {
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 13px;
+    color: #4f4f4f;
+    padding-bottom: 12px;
+}
+
+#events .blog-item .blog ul li {
+    display: inline-block;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 13px;
+    color: #979797;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#events .blog-item .blog ul li i {
+    font-size: 18px;
+    transition: .4s;
+}
+
+#events .blog-item .blog a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #2d3e50;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    transition: .4s;
+
+}
+
+#events .blog-item:hover {
+    border: 1px solid #dddddd;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+#events .blog-item:hover h4 {
+    color: #fbaa33;
+}
+
+#events .blog-item:hover ul li i {
+    color: #fbaa33;
+}
+
+#events .blog-item:hover a {
+    background: #fbaa33;
+}
+
+
+/* =============================== Events CSS END =============================== */
+
+
+/* =============================== testimonial CSS START =============================== */
+
+#testimonial {
+    padding: 60px 0;
+    background: #f5f5f5;
+}
+
+
+
+
+#testimonial .top-bottom-shape {
+    position: relative;
+}
+
+
+#testimonial .top-bottom-shape::before {
+    width: 210px;
+    height: 3px;
+    background: #fbaa33;
+    position: absolute;
+    top: -10px;
+    left: -12px;
+    content: "";
+    border-radius: 5px;
+}
+
+
+#testimonial .top-bottom-shape::after {
+    width: 10px;
+    height: 3px;
+    background: #fbaa33;
+    position: absolute;
+    top: -10px;
+    left: 210px;
+    content: "";
+    border-radius: 5px;
+}
+
+
+#testimonial .top-bottom-shape2 {
+    position: relative;
+}
+
+#testimonial .top-bottom-shape2::before {
+    width: 210px;
+    height: 3px;
+    background: #2d3e50;
+    position: absolute;
+    bottom: -10px;
+    right: -20px;
+    content: "";
+    border-radius: 5px;
+}
+
+#testimonial .top-bottom-shape2::after {
+    width: 10px;
+    height: 3px;
+    background: #2d3e50;
+    position: absolute;
+    bottom: -10px;
+    right: 210px;
+    content: "";
+    border-radius: 5px;
+}
+
+/* about 3D slider */
+
+
+#testimonial .testi-img-slider .slide-item img {
+    clip-path: polygon(20% 0, 100% 0%, 80% 100%, 0% 100%) !important;
+    width: 308px;
+}
+
+
+#testimonial .slick-slider {
+    margin-left: -12%;
+    margin-right: -12%;
+}
+
+#testimonial .slick-list {
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+
+
+#testimonial .testi-img-slider ul {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 5px;
+}
+
+#testimonial .slick-dots li {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+    transition: .4s;
+}
+
+#testimonial .slick-dots .slick-active {
+    width: 12px;
+    height: 12px;
+    background: #fbaa33;
+    border-color: #fbaa33;
+    border-radius: 50%;
+}
+
+
+#testimonial .slick-track {
+    max-width: 100% !important;
+    transform: translate3d(0, 0, 0) !important;
+    perspective: 100px;
+}
+
+#testimonial .slick-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    width: 100% !important;
+    transform: translate3d(0, 0, 0);
+    transition: transform 1s, opacity 1s;
+}
+
+#testimonial .slick-snext,
+#testimonial .slick-sprev,
+#testimonial .slick-snext2,
+#testimonial .slick-sprev2 {
+    display: block;
+}
+
+#testimonial .slick-current {
+    opacity: 1;
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+#testimonial .slick-snext {
+    opacity: 1;
+    transform: translate3d(10%, 0, -10px);
+    z-index: 1;
+    perspective: 1000px;
+}
+
+#testimonial .slick-snext2 {
+    opacity: 1;
+    transform: translate3d(20%, 0, -20px);
+    z-index: 0;
+    perspective: 1000px;
+}
+
+#testimonial .slick-sprev {
+    opacity: 1;
+    transform: translate3d(-10%, 0, -10px);
+}
+
+#testimonial .slick-sprev2 {
+    opacity: 1;
+    transform: translate3d(-20%, 0, -20px);
+}
+
+
+
+#testimonial .testi-img-slider .left-arrow {
+    color: #f1f1f1;
+    position: absolute;
+    font-size: 28px;
+    top: 32%;
+    left: -15px;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #2d3e50;
+    background: #2d3e50;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+#testimonial .testi-img-slider .right-arrow {
+    color: #f1f1f1;
+    position: absolute;
+    font-size: 28px;
+    bottom: 10%;
+    left: -15px;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #2d3e50;
+    background: #2d3e50;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+#testimonial .testi-img-slider .left-arrow:hover {
+    background: #fbaa33;
+    color: white;
+    border-color: #fbaa33;
+}
+
+#testimonial .testi-img-slider .right-arrow:hover {
+    background: #fbaa33;
+    color: white;
+    border-color: #fbaa33;
+}
+
+/* about 3D slider */
+
+
+#testimonial .testi-text-slider p {
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 13px;
+    color: #444444;
+    line-height: 25px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+
+#testimonial .testi-text-slider h3 {
+    font-family: 'Arimo';
+    font-weight: 700;
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+#testimonial .testi-text-slider h3 span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+}
+
+#testimonial .testi-text-slider .star i {
+    color: #fbaa33;
+    font-size: 14px;
+}
+
+#testimonial .accordion h2 button {
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 20px;
+    color: #444444;
+    width: 100%;
+    text-align: left;
+    -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+}
+
+#testimonial .accordion p {
+    font-size: 14px;
+    color: #444444;
+    font-family: 'Arimo';
+    font-weight: 400;
+    background: white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+#testimonial .accordion-button i {
+    position: absolute;
+    right: 15px;
+    transform: rotate(90deg);
+    transition: .4s;
+}
+
+#testimonial .accordion-button {
+    transition: .4s;
+    border-radius: 5px;
+}
+
+#testimonial .accordion-button::after {
+    background-image: none;
+}
+
+#testimonial .accordion-button:not(.collapsed) i {
+    transform: rotate(-90deg);
+}
+
+#testimonial .accordion-button:not(.collapsed) {
+    background: #fbaa33;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+#testimonial .accordion-button:focus {
+    border-color: none;
+    outline: 0;
+}
+
+#testimonial .accordion-collapse {
+    border: solid rgba(0, 0, 0, .125);
+    border-width: 0 1px;
+    -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0px 5px 5px;
+}
+
+#testimonial .accordion-item {
+    margin-bottom: 20px;
+}
+
+#testimonial .accordion-item .accordion-body {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+
+
+
+
+
+
+/* =============================== Testimonial CSS END =============================== */
+
+
+
+
+
+/* =============================== Teacher’s CSS START =============================== */
+#teachers {
+    padding: 100px 0;
+}
+
+#teachers .member {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    transition: .4s;
+}
+
+#teachers .member .img img {
+    width: 100%;
+}
+
+#teachers .member h3 {
+    text-align: center;
+    font-family: 'Arimo';
+    font-weight: 700;
+    font-size: 20px;
+    color: #444444;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    transition: .4s;
+}
+
+
+#teachers .member p {
+    text-align: center;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+    margin-bottom: -5px;
+}
+
+#teachers .member .icon {
+    position: absolute;
+    bottom: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .4s;
+}
+
+#teachers .member .icon a i {
+    color: #ffffff;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #2d3e50;
+    margin: 0 4px;
+    transition: .4s;
+}
+
+#teachers .member:hover .icon {
+    opacity: 1;
+}
+
+#teachers .member:hover .icon a i:hover {
+    background: #fbaa33;
+}
+
+#teachers .member:hover h3 {
+    margin-top: 30px;
+}
+
+
+/* =============================== Teacher’s CSS END =============================== */
+
+
+/* =============================== Blog’s CSS Start =============================== */
+#blog-section {
+    padding-bottom: 50px;
+}
+
+#blog-section .blog-tittle-bg {
+    background: url(../image/blogsection-title.png) no-repeat center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#blog-section .blog-tittle-bg .tittle h2 {
+    color: #fff;
+}
+
+#blog-section .blog-tittle-bg .tittle p {
+    color: #fff;
+}
+
+
+
+/* ========topBlog CSS */
+#blog-section .top-blog {
+    margin-top: -110px;
+}
+
+#blog-section .top-blog .blog .image {
+    position: relative;
+}
+
+#blog-section .top-blog .blog .image img {
+    width: 100%;
+}
+
+#blog-section .top-blog .blog .blog-overlay {
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    padding: 40px;
+}
+
+#blog-section .top-blog .blog-overlay .icon {
+    text-align: right;
+    margin-bottom: 50px;
+    position: absolute;
+    top: -75%;
+    right: 5%;
+}
+
+#blog-section .top-blog .blog-overlay .icon {
+    opacity: 0;
+    transition: .4s;
+}
+
+#blog-section .top-blog .blog-overlay .icon ul li a i {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2d3e50;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+    transition: .4s;
+}
+
+#blog-section .top-blog .blog-overlay .tittle {
+    color: white;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#blog-section .top-blog .blog-overlay .url {
+    color: white;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+#blog-section .top-blog .blog-overlay .infor {
+    opacity: 0;
+    transition: .4s;
+}
+
+#blog-section .top-blog .blog-overlay .infor ul li {
+    color: white;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#blog-section .top-blog .blog-overlay .infor ul li:first-child {
+    margin-right: 176px;
+}
+
+
+#blog-section .top-blog .blog-overlay .icon ul li a i:hover {
+    background: #fbaa33;
+}
+
+#blog-section .top-blog .blog:hover .icon {
+    opacity: 1;
+}
+
+
+#blog-section .top-blog .blog:hover .infor {
+    opacity: 1;
+}
+
+/* ========topBlog CSS */
+
+
+
+#blog-section .bottom-blog {
+    padding-top: 30px;
+}
+
+
+/* ========bottomBlog CSS */
+
+#blog-section .bottom-blog .blog .image {
+    position: relative;
+}
+
+#blog-section .bottom-blog .blog .image img {
+    width: 100%;
+}
+
+#blog-section .bottom-blog .blog .blog-overlay {
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+    padding-top: 90px;
+}
+
+#blog-section .bottom-blog .blog-overlay .icon {
+    text-align: right;
+    margin-bottom: 50px;
+    position: absolute;
+    top: -75%;
+    right: 5%;
+}
+
+#blog-section .bottom-blog .blog-overlay .icon {
+    opacity: 0;
+    transition: .4s;
+}
+
+#blog-section .bottom-blog .blog-overlay .icon ul li a i {
+    color: white;
+    font-size: 14px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #2d3e50;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: .4s;
+}
+
+#blog-section .bottom-blog .blog-overlay .tittle {
+    color: white;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 55px;
+}
+
+#blog-section .bottom-blog .blog-overlay .url {
+    color: white;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#blog-section .bottom-blog .blog-overlay .icon ul li a i:hover {
+    background: #fbaa33;
+}
+
+#blog-section .bottom-blog .blog:hover .icon {
+    opacity: 1;
+}
+
+/* ========bottomBlog CSS */
+
+
+/* =============================== Blog’s CSS END =============================== */
+
+
+
+/* =============================== Footer CSS END =============================== */
+
+footer {
+    background: #2d3e50;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+footer .footer-left {
+    padding-right: 55px;
+}
+
+footer .footer-left img {
+    margin-bottom: 30px;
+}
+
+footer .footer-left p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    font-family: 'Arimo';
+}
+
+footer .footer-left p span {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer .footer-left a {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+footer .footer-left a i {
+    border-radius: 50%;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #2d3e50;
+    transition: .5s;
+}
+
+footer .footer-left a i:hover {
+    background: #fbaa33;
+    color: #fff;
+}
+
+footer h2 {
+    color: white;
+    font-family: 'Arimo';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+
+footer .footer-link ul li a {
+    color: white;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: block;
+    transition: .4s;
+}
+
+footer .footer-link ul li a:hover {
+    color: #fbaa33;
+}
+
+
+footer .footer-Contact {
+    display: flex;
+}
+
+footer .footer-Contact .social {
+    width: 20%;
+}
+
+footer .footer-Contact .details {
+    width: 80%;
+}
+
+footer .footer-Contact .social ul li .icon {
+    color: #2d3e50;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    background: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+footer .footer-Contact .details ul li p span {
+    color: #fbaa33;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+footer .footer-Contact .details ul li p {
+    color: white;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+
+
+
+/* footer sloder */
+footer .footer-slider .img {
+    position: relative;
+}
+
+footer .footer-slider .img img {
+    width: 100% !important;
+}
+
+footer .footer-slider .img .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .4s;
+}
+
+footer .footer-slider .img .overlay a {
+    color: #2d3e50;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 13px;
+    padding: 12px 10px;
+    text-align: center;
+    background: white;
+}
+
+
+footer .footer-slider .img .overlay:hover {
+    opacity: 1;
+}
+
+footer .Copyright {
+    text-align: center;
+}
+
+footer .Copyright p {
+    color: white;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 14px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+footer .Copyright p span {
+    color: #fbaa33;
+}
+
+/* =============================== Footer CSS END =============================== */
