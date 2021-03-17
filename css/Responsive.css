@@ -1,3 +1,5 @@
+/* ================== */
+
 @media (min-width:320px) and (max-width:575px) {
 
     .tittle h2 {
@@ -456,3 +458,697 @@
 
     /* ---------------------------------------------- */
 }
+/* ================== */
+
+@media (min-width:576px) and (max-width:767px) {
+
+    .tittle h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .tittle p {
+        width: 540px;
+        margin-bottom: 20px;
+    }
+
+    /*=============================== header Start */
+    header .header-contact span {
+        font-size: 12px;
+    }
+
+
+    header .header-contact a {
+        margin-left: 18px;
+        font-size: 12px;
+    }
+
+    header .header-reg p a {
+        font-size: 12px;
+    }
+
+    /*=============================== header END */
+
+
+    /*=============================== NAV Start */
+
+    nav {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+    nav ul li {
+        margin-right: 12px;
+        margin-top: 0;
+        text-align: right;
+    }
+
+    nav ul li a {
+        display: inline-block;
+    }
+
+    nav .button a {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    nav .button {
+        text-align: right;
+        margin-top: 0;
+    }
+
+    nav button span i {
+        color: #2d3e50;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    /*=============================== NAV END */
+
+
+    /*=============================== NAV END */
+
+    #banner-section .slider .overlay {
+        padding-top: 30px;
+        padding-bottom: 130px;
+    }
+
+    #banner-section .slider .overlay h4 {
+        font-size: 25px;
+    }
+
+    #banner-section .slider .overlay h2 {
+        font-size: 40px;
+    }
+
+    #banner-section .slider .overlay p {
+        font-size: 13px;
+        width: auto;
+        margin-bottom: 25px;
+    }
+
+    #banner-section .slider .overlay a {
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+
+    #banner-Facilities .Facilities-item {
+        transform: translateY(-40%);
+    }
+
+
+    #banner-section .slick-dots {
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #banner-section .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    #banner-section .slick-dots li button {
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #999;
+        border-radius: 50%;
+        font-size: 0;
+    }
+
+    #banner-section .slick-dots .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+    }
+
+    #banner-Facilities .Facilities-item {
+        padding: 15px 0;
+    }
+
+    #banner-Facilities .Facilities-item h3 {
+        font-weight: 400;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #banner-Facilities .Facilities-item img {
+        width: 50px;
+    }
+
+    /*=============================== NAV END */
+
+
+    /*=============================== about start */
+
+    #abour-section .rev_slider .slick-slide img {
+        width: 100%;
+    }
+
+    #abour-section .text {
+        padding-left: 0;
+    }
+
+    #abour-section .text .button {
+        text-align: center;
+    }
+
+    #abour-section .text .button a {
+        font-size: 17px;
+        padding: 12px 16px;
+    }
+
+    /*=============================== about END */
+
+    /*=============================== Counter START */
+
+    #counter-up {
+        padding: 20px 0;
+    }
+
+    #counter-up .item h4 {
+        margin-bottom: 30px;
+    }
+
+    #counter-up .item h4::after {
+        bottom: -12px;
+        left: 60%;
+    }
+
+    #counter-up .item h4::before {
+        bottom: -12px;
+        left: 46%;
+    }
+
+    /*=============================== Counter END */
+
+
+    /*=============================== courses END */
+    #courses {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    #courses .course-slider .left-arrows {
+        right: -6%;
+        z-index: 99;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #courses .course-slider .right-arrows {
+        right: -6%;
+        z-index: 99;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    /*=============================== courses END */
+
+
+    /*=============================== events Start */
+
+    #events {
+        padding: 50px 0;
+    }
+
+    #events .calender {
+        margin-bottom: 30px;
+    }
+
+    #events .blog-item .blog p {
+        width: 265px;
+    }
+
+    /*=============================== events END */
+
+
+    /*=============================== Testimonial Start */
+
+    #testimonial .testi-img-slider .slide-item img {
+        width: 100%;
+    }
+
+    #testimonial .accordion-item {
+        margin-top: 30px;
+    }
+
+
+    #testimonial .testi-img-slider .left-arrow {
+        left: 45px;
+    }
+
+    #testimonial .testi-img-slider .right-arrow {
+        right: 45px !important;
+    }
+
+
+    /*=============================== Testimonial END */
+
+
+    /*=============================== teachers Start */
+
+    #teachers {
+        padding: 30px 0;
+    }
+
+    #teachers .member {
+        margin-bottom: 15px;
+    }
+
+    /*=============================== teachers END */
+
+    /*=============================== blog END */
+
+    #blog-section {
+        padding-bottom: 0;
+    }
+
+    #blog-section .top-blog .blog .blog-overlay {
+        padding: 30px;
+    }
+
+    #blog-section .top-blog .blog-overlay .tittle {
+        margin-top: 70px;
+    }
+
+
+    #blog-section .top-blog .blog-overlay .infor ul li:first-child {
+        margin-right: 75px;
+    }
+
+    #blog-section .bottom-blog .blog .blog-overlay {
+        padding-top: 60px;
+    }
+
+    #blog-section .bottom-blog .blog {
+        margin: 12px 0;
+    }
+
+    /*=============================== blog END */
+
+
+    /*=============================== footer END */
+    footer .footer-left {
+        padding-right: 0px;
+    }
+
+    footer .footer-link ul li a {
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    footer .footer-left p {
+        font-size: 12px;
+        line-height: inherit;
+    }
+
+    footer .footer-Contact .social {
+        width: 25%;
+    }
+
+    footer .footer-left p span {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    footer .footer-link .social ul li {
+        margin-top: 5px;
+    }
+
+    footer .footer-link .details ul li a {
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+
+
+    footer .footer-Contact .details ul li p span {
+        margin-bottom: 0px;
+    }
+
+    footer .footer-Contact .details ul li p {
+        margin-bottom: 30px;
+    }
+
+    footer .footer-slider .img .overlay a {
+        color: #fff;
+        font-family: 'Arimo';
+        font-weight: 400;
+        font-size: 7px;
+        text-align: center;
+        background: #00000045;
+        width: 100%;
+        height: 100%;
+        padding-top: 12px;
+    }
+
+    /*=============================== footer END */
+
+
+
+
+
+    /* ---------------------------------------------- */
+}
+
+/* ================== */
+@media (min-width:768px) and (max-width:991px) {
+
+    .tittle h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    /*=============================== NAV Start */
+
+    nav {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+    nav ul li {
+        margin-right: 12px;
+        margin-top: 0;
+        text-align: right;
+    }
+
+    nav ul li a {
+        display: inline-block;
+    }
+
+    nav .button a {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    nav .button {
+        text-align: right;
+        margin-top: 0;
+    }
+
+    nav button span i {
+        color: #2d3e50;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    /*=============================== NAV END */
+
+
+    /*=============================== NAV END */
+
+    #banner-section .slider .overlay {
+        padding-top: 30px;
+        padding-bottom: 130px;
+    }
+
+    #banner-section .slider .overlay h4 {
+        font-size: 35px;
+    }
+
+    #banner-section .slider .overlay h2 {
+        font-size: 55px;
+    }
+
+    #banner-section .slider .overlay a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    #banner-Facilities .Facilities-item {
+        transform: translateY(-40%);
+    }
+
+
+    #banner-section .slick-dots {
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #banner-section .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    #banner-section .slick-dots li button {
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #999;
+        border-radius: 50%;
+        font-size: 0;
+    }
+
+    #banner-section .slick-dots .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+    }
+
+    #banner-Facilities .Facilities-item {
+        padding: 15px 0;
+    }
+
+    #banner-Facilities .Facilities-item h3 {
+        font-weight: 400;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #banner-Facilities .Facilities-item img {
+        width: 50px;
+    }
+
+    /*=============================== NAV END */
+
+
+    /*=============================== about start */
+
+    #abour-section .rev_slider .slick-slide img {
+        width: 100%;
+    }
+
+    #abour-section .text {
+        padding-left: 0;
+    }
+
+    #abour-section .text .button {
+        text-align: center;
+    }
+
+    #abour-section .text .button a {
+        font-size: 17px;
+        padding: 12px 16px;
+    }
+
+    /*=============================== about END */
+
+    /*=============================== Counter START */
+
+    #counter-up {
+        padding: 20px 0;
+    }
+
+    #counter-up .item h4 {
+        margin-bottom: 30px;
+    }
+
+    #counter-up .item h4 {
+        font-size: 22px;
+    }
+
+    #counter-up .item h4::before {
+        left: 45%;
+    }
+
+    #counter-up .item h4::after {
+        left: 68%;
+    }
+
+
+    /*=============================== Counter END */
+
+
+    /*=============================== courses END */
+    #courses {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    #courses .course-slider .left-arrows {
+        right: -6%;
+        z-index: 99;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #courses .course-slider .right-arrows {
+        right: -6%;
+        z-index: 99;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    /*=============================== courses END */
+
+
+    /*=============================== events Start */
+
+    #events {
+        padding: 50px 0;
+    }
+
+    #events .calender {
+        margin-bottom: 30px;
+    }
+
+    #events .blog-item .blog p {
+        width: 265px;
+    }
+
+    /*=============================== events END */
+
+
+    /*=============================== Testimonial Start */
+
+    #testimonial .testi-img-slider .slide-item img {
+        width: 100%;
+    }
+
+    #testimonial .accordion-item {
+        margin-top: 30px;
+    }
+
+    #testimonial .testi-text-slider p {
+        margin-top: 0;
+    }
+
+    #testimonial .row {
+        justify-content: space-around;
+    }
+
+    /*=============================== Testimonial END */
+
+
+    /*=============================== teachers Start */
+
+    #teachers {
+        padding: 30px 0;
+    }
+
+    #teachers .member {
+        margin-bottom: 15px;
+    }
+
+    #teachers .member .icon {
+        width: 100%;
+    }
+
+    #teachers .member .icon a i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #teachers .member h3 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    #teachers .member p {
+        font-size: 13px;
+    }
+
+    #teachers .member .icon {
+        bottom: 75px;
+    }
+
+    /*=============================== teachers END */
+
+    /*=============================== blog END */
+
+    #blog-section {
+        padding-bottom: 0;
+    }
+
+    #blog-section .top-blog .blog .blog-overlay {
+        padding: 30px;
+    }
+
+    #blog-section .top-blog .blog-overlay .tittle {
+        margin-top: 10px;
+    }
+
+    #blog-section .top-blog .blog-overlay .icon ul li:last-child {
+        opacity: 0;
+    }
+
+    #blog-section .top-blog .blog-overlay .icon {
+        top: -88%;
+    }
+
+    #blog-section .top-blog .blog-overlay .infor {
+        display: none;
+    }
+
+    #blog-section .bottom-blog .blog {
+        margin: 12px 0;
+    }
+
+    #blog-section .bottom-blog .blog .blog-overlay {
+        padding: 15px 0 0 10px;
+    }
+
+    #blog-section .bottom-blog .blog-overlay .icon {
+        display: none;
+    }
+
+    #blog-section .bottom-blog .blog-overlay .tittle {
+        font-size: 14px;
+    }
+
+    #blog-section .bottom-blog .blog-overlay .url {
+        display: none;
+    }
+
+
+    /*=============================== blog END */
+
+
+    /*=============================== footer END */
+
+
+    /*=============================== footer END */
+
+    footer .footer-left {
+        margin-bottom: 40px;
+    }
+
+    footer .footer-Contact .social ul li .icon {
+        margin-bottom: 35px;
+        margin-top: 10px;
+    }
+
+    footer .footer-slider .img .overlay a {
+        color: #fff;
+        font-size: 12px;
+        padding: 12px 10px;
+        background: #00000073;
+    }
+
+    /* ---------------------------------------------- */
+}
+
+/* ================== */
